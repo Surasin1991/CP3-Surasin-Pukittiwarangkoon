@@ -1,0 +1,10 @@
+a = float(input("Please fill first number here >>> "))
+b = float(input("Please fill second number here >>> "))
+c = a + b
+d = a - b
+e = a * b
+f = a / b
+print(a,"+",b,"=",c)
+print(a,"-",b,"=",d)
+print(a,"*",b,"=",e)
+print(a,"/",b,"=",f)
