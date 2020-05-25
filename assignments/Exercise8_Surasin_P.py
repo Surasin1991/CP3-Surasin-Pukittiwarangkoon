@@ -15,13 +15,13 @@ if userInput == "admin" and passInput == "12345":
     SelectProduct = input("Select your Product >>> : ")
     Quantity = int(input("How many do you want >>> : "))
     if SelectProduct == "1":
-        print(p1*Quantity)
+        print("your total price =",p1*Quantity,"THB")
     elif SelectProduct == "2":
-        print(p2*Quantity)
+        print("your total price =",p2*Quantity,"THB")
     elif SelectProduct == "3":
-        print(p3*Quantity)
+        print("your total price =",p3*Quantity,"THB")
     elif SelectProduct == "4":
-        print(p4*Quantity)
+        print("Your total price =",p4*Quantity,"THB")
     else:
         print("Sorry, We don't have the product you need")
 else:
