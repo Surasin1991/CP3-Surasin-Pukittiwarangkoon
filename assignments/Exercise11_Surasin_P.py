@@ -1,3 +1,3 @@
-r = int(input("Input Round : "))
-for i in range(r):
-    print(" ""*"*(r))
+roundNumber = int(input("input round : "))
+for i in range(roundNumber):
+    print((" "*(roundNumber-i))+("*"*(i+i+1)))
