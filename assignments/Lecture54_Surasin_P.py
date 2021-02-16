@@ -1,6 +1,6 @@
 def login():
     usernameInput = input("Username : ")
-    passwordInput = input("Password : ")
+    passwordInput = input("Password : ")  
     if usernameInput == "admin" and passwordInput == "1234":
         return True
     else:
