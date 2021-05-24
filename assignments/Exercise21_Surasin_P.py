@@ -13,8 +13,6 @@ def leftClickButton(event):
         caption = "อ้วน"
     elif result > "29.9":
         caption = "อ้วนมาก"
-        
-    print(result,caption)
     labelResult.configure(text=caption)
 
 MainWindow = Tk()
